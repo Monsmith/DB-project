@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="instagram@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="instagram">
+      <ObjectId>55546</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12558</ObjectId>
+    </database>
+    <database id="4" parent="1" name="Portfolio_development">
+      <ObjectId>16384</ObjectId>
+    </database>
+    <database id="5" parent="1" name="Portfolio_test">
+      <ObjectId>16385</ObjectId>
+    </database>
+    <database id="6" parent="1" name="sign_in_demo_development">
+      <ObjectId>16618</ObjectId>
+    </database>
+    <database id="7" parent="1" name="sign_in_demo_test">
+      <ObjectId>16619</ObjectId>
+    </database>
+    <database id="8" parent="1" name="demologin_development">
+      <ObjectId>16636</ObjectId>
+    </database>
+    <database id="9" parent="1" name="demologin_test">
+      <ObjectId>16637</ObjectId>
+    </database>
+    <database id="10" parent="1" name="MON_development">
+      <ObjectId>16812</ObjectId>
+    </database>
+    <database id="11" parent="1" name="MON_test">
+      <ObjectId>16813</ObjectId>
+    </database>
+    <database id="12" parent="1" name="cryptocurrencies_graph_development">
+      <ObjectId>16830</ObjectId>
+    </database>
+    <database id="13" parent="1" name="cryptocurrencies_graph_test">
+      <ObjectId>16831</ObjectId>
+    </database>
+    <database id="14" parent="1" name="crypto_development">
+      <ObjectId>16848</ObjectId>
+    </database>
+    <database id="15" parent="1" name="crypto_test">
+      <ObjectId>16849</ObjectId>
+    </database>
+    <database id="16" parent="1" name="action-cable-example_development">
+      <ObjectId>16866</ObjectId>
+    </database>
+    <database id="17" parent="1" name="action-cable-example_test">
+      <ObjectId>16867</ObjectId>
+    </database>
+    <database id="18" parent="1" name="IG_development">
+      <ObjectId>16973</ObjectId>
+    </database>
+    <database id="19" parent="1" name="IG_test">
+      <ObjectId>16974</ObjectId>
+    </database>
+    <database id="20" parent="1" name="your_database_name">
+      <ObjectId>17002</ObjectId>
+    </database>
+    <database id="21" parent="1" name="your_database_name_test">
+      <ObjectId>17003</ObjectId>
+    </database>
+    <database id="22" parent="1" name="projectm_development">
+      <ObjectId>17499</ObjectId>
+    </database>
+    <database id="23" parent="1" name="projectm_test">
+      <ObjectId>17500</ObjectId>
+    </database>
+    <database id="24" parent="1" name="project_development">
+      <ObjectId>17517</ObjectId>
+    </database>
+    <database id="25" parent="1" name="project_test">
+      <ObjectId>17518</ObjectId>
+    </database>
+    <database id="26" parent="1" name="rails-react-starter-tutorial_development">
+      <ObjectId>17535</ObjectId>
+    </database>
+    <database id="27" parent="1" name="rails-react-starter-tutorial_test">
+      <ObjectId>17536</ObjectId>
+    </database>
+    <database id="28" parent="1" name="twitter-clone_development">
+      <ObjectId>17564</ObjectId>
+    </database>
+    <database id="29" parent="1" name="twitter-clone_test">
+      <ObjectId>17565</ObjectId>
+    </database>
+    <database id="30" parent="1" name="reactchat_development">
+      <ObjectId>17566</ObjectId>
+    </database>
+    <database id="31" parent="1" name="reactchat_test">
+      <ObjectId>17567</ObjectId>
+    </database>
+    <database id="32" parent="1" name="macbookpro">
+      <ObjectId>17634</ObjectId>
+    </database>
+    <database id="33" parent="1" name="osh_development">
+      <ObjectId>23228</ObjectId>
+    </database>
+    <database id="34" parent="1" name="osh_test">
+      <ObjectId>23229</ObjectId>
+    </database>
+    <database id="35" parent="1" name="instagram_development">
+      <ObjectId>55513</ObjectId>
+    </database>
+    <database id="36" parent="1" name="instagram_test">
+      <ObjectId>55514</ObjectId>
+    </database>
+    <role id="37" parent="1" name="macbookpro">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="38" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="39" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="40" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="41" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="42" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="43" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2561-08-20.00:12:38.100</IntrospectionTimestamp>
+      <IntrospectionStateNumber>12319</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="44" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="45" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="46" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="47" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="48" parent="2" name="information_schema">
+      <ObjectId>12267</ObjectId>
+    </schema>
+    <sequence id="49" parent="43" name="users_id_seq">
+      <ObjectId>55547</ObjectId>
+      <StateNumber>12314</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="50" parent="43" name="ar_internal_metadata">
+      <ObjectId>55570</ObjectId>
+      <StateNumber>12319</StateNumber>
+    </table>
+    <table id="51" parent="43" name="schema_migrations">
+      <ObjectId>55562</ObjectId>
+      <StateNumber>12317</StateNumber>
+    </table>
+    <table id="52" parent="43" name="users">
+      <ObjectId>55549</ObjectId>
+      <StateNumber>12314</StateNumber>
+    </table>
+    <column id="53" parent="50" name="key">
+      <Position>1</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12319</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="54" parent="50" name="value">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>12319</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="55" parent="50" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12319</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="56" parent="50" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12319</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="57" parent="50" name="ar_internal_metadata_pkey">
+      <ObjectId>55576</ObjectId>
+      <ColNames>key</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="50" name="ar_internal_metadata_pkey">
+      <ObjectId>55577</ObjectId>
+      <ColNames>key</ColNames>
+      <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="59" parent="51" name="version">
+      <Position>1</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12317</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="60" parent="51" name="schema_migrations_pkey">
+      <ObjectId>55568</ObjectId>
+      <ColNames>version</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="51" name="schema_migrations_pkey">
+      <ObjectId>55569</ObjectId>
+      <ColNames>version</ColNames>
+      <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="52" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12314</StateNumber>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>users_id_seq</SequenceName>
+    </column>
+    <column id="63" parent="52" name="email">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12314</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="64" parent="52" name="encrypted_password">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12314</StateNumber>
+      <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="52" name="reset_password_token">
+      <Position>4</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>12314</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="66" parent="52" name="reset_password_sent_at">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>12314</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="67" parent="52" name="remember_created_at">
+      <Position>6</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>12314</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="68" parent="52" name="created_at">
+      <Position>7</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12314</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="69" parent="52" name="updated_at">
+      <Position>8</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>12314</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="70" parent="52" name="users_pkey">
+      <ObjectId>55558</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="71" parent="52" name="index_users_on_email">
+      <ObjectId>55560</ObjectId>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="72" parent="52" name="index_users_on_reset_password_token">
+      <ObjectId>55561</ObjectId>
+      <ColNames>reset_password_token</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="52" name="users_pkey">
+      <ObjectId>55559</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
