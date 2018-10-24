@@ -74,4 +74,4 @@ gem 'toastr-rails'
 gem 'carrierwave', '~> 1.0'
 gem 'cloudinary'
 gem 'figaro'
-
+gem 'dotenv-rails', groups: [:development, :test]
