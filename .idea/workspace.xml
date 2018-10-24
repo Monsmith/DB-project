@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a505b76-eba6-46bd-8ccc-ea172ee26583" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/initializers/cloudinary.rb" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/instagram.iml" afterPath="$PROJECT_DIR$/.idea/instagram.iml" />
+    <list default="true" id="9a505b76-eba6-46bd-8ccc-ea172ee26583" name="Default" comment="prepare the environment to upload any picture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -411,7 +405,7 @@
       <workItem from="1540126240242" duration="205000" />
       <workItem from="1540134929785" duration="1670000" />
       <workItem from="1540305751377" duration="248000" />
-      <workItem from="1540400250720" duration="955000" />
+      <workItem from="1540400250720" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="migration">
       <created>1540134962770</created>
@@ -420,11 +414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540134962770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="prepare the environment to upload any picture">
+      <created>1540401278116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540401278116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11163000" />
+    <option name="totallyTimeSpent" value="11371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -459,7 +460,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="migration" />
+    <MESSAGE value="prepare the environment to upload any picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare the environment to upload any picture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
