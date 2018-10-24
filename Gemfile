@@ -67,3 +67,7 @@ gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem 'toastr-rails'
 gem 'bootstrap-sass'
+gem 'carrierwave', '~> 1.0'
+gem 'cloudinary'
+gem 'figaro'
+
