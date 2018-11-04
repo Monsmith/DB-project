@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class PostsController < ApplicationController
   before_action :authenticate_user!
-  before_action :find_post, only: [:show, :destroy]
+  before_action :find_post, only: %i[show destroy]
 
   def index
     @posts = Post.all.limit(10).includes(:photos)
@@ -10,16 +12,14 @@ class PostsController < ApplicationController
   def create
     @post = current_user.posts.build(post_params)
     if @post.save
-      if params[:images]
-        params[:images].each do |img|
-          @post.photos.create(image: img[1])
-        end
+      params[:images]&.each do |img|
+        @post.photos.create(image: img[1])
       end
 
       redirect_to posts_path
-      flash[:notice] = "Saved ..."
+      flash[:notice] = 'Saved ...'
     else
-      flash[:alert] = "Something went wrong ..."
+      flash[:alert] = 'Something went wrong ...'
       redirect_to posts_path
     end
   end
@@ -31,9 +31,9 @@ class PostsController < ApplicationController
   def destroy
     if @post.user == current_user
       if @post.destroy
-        flash[:notice] = "Post deleted!"
+        flash[:notice] = 'Post deleted!'
       else
-        flash[:alert] = "Something went wrong ..."
+        flash[:alert] = 'Something went wrong ...'
       end
     else
       flash[:notice] = "You don't have permission to do that!"
@@ -47,7 +47,7 @@ class PostsController < ApplicationController
     @post = Post.find_by id: params[:id]
 
     return if @post
-    flash[:danger] = "Post not exist!"
+    flash[:danger] = 'Post not exist!'
     redirect_to root_path
   end
 

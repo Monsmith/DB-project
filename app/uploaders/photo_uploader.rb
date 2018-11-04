@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PhotoUploader < CarrierWave::Uploader::Base
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
@@ -13,20 +15,18 @@ class PhotoUploader < CarrierWave::Uploader::Base
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
-
   include Cloudinary::CarrierWave
 
-  process :convert => 'png'
-  process :tags => ['post_picture']
+  process convert: 'png'
+  process tags: ['post_picture']
 
   version :standard do
-    process :resize_to_fill => [300, 300, :north]
+    process resize_to_fill: [300, 300, :north]
   end
 
   version :thumbnail do
     resize_to_fit(100, 100)
   end
-
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url(*args)
