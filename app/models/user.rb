@@ -1,6 +1,25 @@
 # frozen_string_literal: true
 
 class User < ApplicationRecord
+  ############################################################################################
+  ## PeterGate Roles                                                                        ##
+  ## The :user role is added by default and shouldn't be included in this list.             ##
+  ## The :root_admin can access any page regardless of access settings. Use with caution!   ##
+  ## The multiple option can be set to true if you need users to have multiple roles.       ##
+  petergate(roles: %i[admin editor organization general], multiple: false) ##
+  ############################################################################################
+
+  # after_initialize do
+  #   if self.new_record?
+  #     self.roles ||= :general
+  #   end
+  # end
+  #
+  # enum roles: {
+  #     organization: 0,
+  #     general: 1,
+  #     admin: 3
+  # }
 
   has_many :posts, dependent: :destroy
   # Include default devise modules. Others available are:

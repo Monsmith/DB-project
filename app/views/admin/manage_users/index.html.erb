@@ -1,3 +1,31 @@
-<% @list_users.each do |user| %>
-  <%= user.name %>
-<%end%>
+<div class="panel panel-primary">
+  <div class="panel-heading">List of all Users</div>
+  <% @list_users.each do |user| %>
+    <div class="user-list">
+      <%= link_to "#{user.name}", user_path(user.id) %>
+    </div>
+  <% end %>
+</div>
+
+<div class="container-admin">
+  <table>
+    <tr>
+      <th>No</th>
+      <th>Username</th>
+      <th>email</th>
+      <th>bio</th>
+      <th>roles</th>
+      <th>posts</th>
+    </tr>
+    <% @list_users.each do |user| %>
+      <tr>
+        <td><%= link_to "#{user.name}", user_path(user.id) %></td>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= user.bio %></td>
+        <td><%= user.roles %></td>
+        <td><%= user.posts.count %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
