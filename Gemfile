@@ -77,3 +77,4 @@ gem 'rubocop', require: false
 gem 'toastr-rails'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+gem 'dropzonejs-rails'
