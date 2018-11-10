@@ -33,7 +33,7 @@
     <div class="row">
       <p class="email"><%= @user.email %></p>
       <% if logged_in?(:admin) %>
-        <p><%= link_to 'Destroy', @user, method: :delete, data: {confirm: 'Are you sure?'} %></p>
+        <p><%= link_to 'Destroy', @user, method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-danger" %></p>
       <% end %>
     </div>
   </div>
